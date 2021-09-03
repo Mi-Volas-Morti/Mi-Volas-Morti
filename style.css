@@ -1,9 +1,43 @@
+body{
+    background-color: dimgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(97, 96, 72);
+    background-color: rgb(182, 182, 182);
+    color: rgb(63, 58, 48);
+}
 header{
     margin: auto;
     width: 50%;
-    border: 3px solid orangered;
+    border: 3px solid orange;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    background-color: orange;
+    background-color: rgb(204, 172, 111);
+    
+}
+.description{
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(51, 90, 0);
+    background-color: rgb(62, 109, 128);
+    color: wheat; 
+}
+.rickroll{
+    margin: auto;
+    width: 50%;
+}
+.download{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(152, 172, 107);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(173, 166, 152);
 }
