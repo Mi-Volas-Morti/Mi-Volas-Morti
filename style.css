@@ -28,9 +28,11 @@ header{
     background-color: rgb(62, 109, 128);
     color: wheat; 
 }
-.rickroll{
+.gif{
     margin: auto;
     width: 50%;
+    align-items: center;
+    text-align: center;
 }
 .download{
     margin: auto;
