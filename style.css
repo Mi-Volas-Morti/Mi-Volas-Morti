@@ -18,6 +18,7 @@ header{
     text-align: center;
     border-radius: 10px;
     background-color: rgb(204, 172, 111);
+    color: rgb(65, 65, 65);
     
 }
 .description{
@@ -42,4 +43,16 @@ header{
     text-align: center;
     border-radius: 10px;
     background-color: rgb(173, 166, 152);
+}
+.entrance{
+    color: wheat; 
+    text-decoration: none;
+}
+.s{
+    background-color: rgb(56, 47, 47);
+    color: lightsteelblue;
+}
+.links{
+    color: rgb(56, 47, 47);
+    margin: 10px;
 }
