@@ -56,3 +56,26 @@ header{
     color: rgb(56, 47, 47);
     margin: 10px;
 }
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  div {
+    animation: counter 5s infinite alternate ease-in;
+    counter-reset: num var(--num);
+    
+  }
+  div::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 100;
+    }
+  }
