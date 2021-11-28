@@ -2,6 +2,9 @@ body{
     background-color: dimgray;
     font-family: 'Courier New', Courier, monospace;
 }
+.asparagus{
+    background-image: url(./asparagus.jpg);
+}
 nav{
     margin: auto;
     padding: 10px;
@@ -54,6 +57,10 @@ header{
 }
 .links{
     color: rgb(56, 47, 47);
+    margin: 10px;
+}
+.a_links{
+    color: chartreuse;
     margin: 10px;
 }
 .list{
